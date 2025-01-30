@@ -1,0 +1,73 @@
+body {
+    font-family: "Montserrat", serif;
+    margin: 0;
+    background-color: #F2DCB3
+}
+h1,h2 {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    background-color: #e4bd8d;
+    height: auto;
+}
+nav {
+    background-color: #eccf9ce8;
+    margin: 0;
+}
+nav ul {
+    margin: 0;
+    padding: 1em;
+    display: flex;
+    list-style-type: none;
+}
+nav a {
+    text-decoration: none;
+    display: block;
+    padding: 1em 0.5em;
+    border: 1px solid #ce5b57;
+    color: #5c9c60;
+    background-color: #bd87fb;
+}
+nav a:hover {
+    color: #bd87fb;
+    background-color: #5c9c60;
+}
+header {
+    background-image: url("Images/זריחה_באגמון_חולה_בזמן_נדידת_העגורים.jpg");
+    background-repeat:no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 2em;
+    height: 300px;
+}
+header div {
+    background-color: rgba(255, 252, 251, 0.676);
+    padding: 1em;
+    width: 30em;
+}
+main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+}
+figure {
+    margin: 1em;
+    border-color: #CE9957;
+    border-width: 6px;
+    border-style: solid;
+    padding: 0.5em;
+    width: 360px;
+    background-color: #FBD487;
+}
+figure img {
+    width:100%;
+}
+section {
+    width: 75vw;
+}
+footer {
+    clear: both;
+}
+@media screen {
+    
+}
